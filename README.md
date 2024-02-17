@@ -1,12 +1,25 @@
 # Teeny Tiny Compyler
-This is a 500 line compiler written in python which compiles a BASIC like language to C code.
+
+This is a 300 line compiler written in python which compiles a BASIC-like language (see [Tiny BASIC](https://en.wikipedia.org/wiki/Tiny_BASIC)) to C code.
 
 This is from [this tutorial (part 1)](https://austinhenley.com/blog/teenytinycompiler1.html) by Austin Z. Henley
 
 [Part 2: parsing grammar](https://austinhenley.com/blog/teenytinycompiler2.html)
+
 [Part 3: emitting code](https://austinhenley.com/blog/teenytinycompiler3.html)
 
-Future Considerations:
+## Things to Learn
+
+- [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+- [Synactic Analysis (Parsing)](https://en.wikipedia.org/wiki/Parsing)
+- [Recursive Descent Parsing](https://en.wikipedia.org/wiki/Recursive_descent_parser)
+- [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
+- [Semantic Analysis](https://en.wikipedia.org/wiki/Semantic_analysis_(compilers))
+- [Optimization Passes](https://en.wikipedia.org/wiki/Optimizing_compiler)
+- [Code Generation](https://en.wikipedia.org/wiki/Code_generation_(compiler))
+
+## Future Considerations
+
 - Parentheses for expressions
 - Logical operators (and, or, not)
 - ELSE IF and ELSE
